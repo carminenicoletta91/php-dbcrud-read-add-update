@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box-item{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+h1{
+  font-size:25px;
+  background:purple;
+  color:white;
+  text-align: center;
+  padding:25px 0;
+  margin-bottom:50px;
+}
+h1 span{
+  padding:0 30px;
+  color:black;
+}
+.items{
+  position: relative;
+  width:250px;
+  margin:10px;
+  padding:20px;
+  background:lightgray;
+  border:3px solid purple;
+  border-radius:5px;
+}
+.items h2{
+  font-size:15px;
+  padding:5px 0;
+}
+.items span{
+  color:brown;
+}
+.update,.remove{
+  position:absolute;
+  top:2px;
+  right:50%;
+  font-size:18px;
+}
+.remove{
+  right: 40%;
+}
+.animate{
+  transform: scale(1.1);
+}
